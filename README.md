@@ -10,5 +10,15 @@
 
 This project demonstrates a video stream example, which uses DDR as a storage medium and stream the Dcache data as video output to the HDMI via ARM standalone VDMA control.
 
+## Demo Image
 
+|Screen|Board|
+|:---:|:---:|
+|![image](https://github.com/user-attachments/assets/2908f997-71a3-49c2-a6d7-f1a08cc72cbb)|![image](https://github.com/user-attachments/assets/b3b2620a-2bec-43da-b139-2e419835b443)|
+
+## Make Sure
+
+Remember that the board uses PLIO UART
+
+The SDK C program is require to reuse the default Anlogic VDMA example inside FD IDE.
 
